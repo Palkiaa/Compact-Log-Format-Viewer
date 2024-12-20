@@ -24,4 +24,8 @@
         <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Serilog.Formatting.Reader\Serilog.Formatting.Reader.csproj" />
+    </ItemGroup>
+
 </Project>
